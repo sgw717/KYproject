@@ -1,11 +1,11 @@
-i, k, guguLine = 0, 0, ""
+i, k, gugu = 0, 0, ""
 
 for i in range(2, 10):
-    guguLine = guguLine + ("# %d단 #" % i)
-print(guguLine)
+    gugu = gugu+ ("# %d단 #" % i)
+print(gugu)
 
 for i in range(1, 10):
-    guguLine = ""
+    gugu = ""
     for k in range(2, 10):
-        guguLine = guguLine + str("%2dX %2d= %2d  " % (k, i, k * i))
-    print(guguLine)
+        gugu = gugu + str("%2dX %2d= %2d  " % (k, i, k * i))
+    print(gugu)
